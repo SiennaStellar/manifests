@@ -18,7 +18,7 @@
   />
 
   <!-- Yocto/OpenEmbedded -->
-  <project remote="yocto" name="poky" path="poky" revision="yocto-2.1.2" />
+  <project remote="yocto" name="poky" path="poky" revision="origin/yocto-2.1.2" />
   <project remote="openembedded" name="meta-openembedded" path="layers/meta-openembedded"
 	revision="55c8a76da5dc099a7bc3838495c672140cedb78e" />
 
