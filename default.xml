@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="yocto"
-	fetch="git://git.yoctoproject.org"
-  />
+  <remote name="yocto" fetch="git://git.yoctoproject.org"/>
 
-  <remote name="openembedded"
-	fetch="git://git.openembedded.org/"
-  />
+  <remote name="openembedded" fetch="git://git.openembedded.org/" />
 
-  <remote name="linaro"
-	fetch="git://git.linaro.org/"
-  />
+  <remote name="linaro" fetch="git://git.linaro.org/" />
 
-  <remote name="github"
-	fetch="git://github.com/"
-  />
+  <remote name="github" fetch="git://github.com/" />
 
-  <!-- Yocto/OpenEmbedded -->
-  <project remote="yocto" name="poky" path="poky" revision="origin/yocto-2.1.2" />
+  <project remote="yocto" name="poky" path="poky" revision="refs/tags/yocto-2.1.2" />
   <project remote="openembedded" name="meta-openembedded" path="layers/meta-openembedded"
 	revision="55c8a76da5dc099a7bc3838495c672140cedb78e" />
 
-  <!-- Linaro layer -->
   <project remote="linaro" name="openembedded/meta-linaro" path="layers/meta-linaro"
 	revision="2f51d38048599d9878f149d6d15539fb97603f8f" />
 
