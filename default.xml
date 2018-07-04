@@ -7,7 +7,7 @@
 
   <remote name="linaro" fetch="git://git.linaro.org/" />
 
-  <remote name="github" fetch="git://github.com/" />
+  <remote name="github" fetch="git://github.com/SiennaStellar" />
 
   <project remote="yocto" name="poky" path="poky" revision="refs/tags/yocto-2.1.2" />
   <project remote="openembedded" name="meta-openembedded" path="layers/meta-openembedded"
@@ -15,5 +15,7 @@
 
   <project remote="linaro" name="openembedded/meta-linaro" path="layers/meta-linaro"
 	revision="2f51d38048599d9878f149d6d15539fb97603f8f" />
+
+  <project remote="github" name="meta-rk3399-xen" path="layers/meta-rk3399-xen" revision="devel" />
 
 </manifest>
