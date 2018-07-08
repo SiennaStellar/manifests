@@ -9,12 +9,11 @@
 
   <remote name="github" fetch="git://github.com/SiennaStellar" />
 
-  <project remote="yocto" name="poky" path="poky" revision="refs/tags/yocto-2.1.2" />
-  <project remote="openembedded" name="meta-openembedded" path="layers/meta-openembedded"
-	revision="55c8a76da5dc099a7bc3838495c672140cedb78e" />
-
-  <project remote="linaro" name="openembedded/meta-linaro" path="layers/meta-linaro"
-	revision="2f51d38048599d9878f149d6d15539fb97603f8f" />
+  <project name="poky" revision="refs/heads/sumo" remote="yocto" />
+  <project name="meta-openembedded" revision="refs/heads/sumo" remote="openembedded" path="layers/meta-openembedded" />
+  <project name="meta-selinux" revision="rocko" remote="yocto" path="layers/meta-selinux" />
+  <project name="meta-virtualization" revision="refs/heads/sumo" remote="yocto" path="layers/meta-virtualization" />
+  <project remote="linaro" name="openembedded/meta-linaro" path="layers/meta-linaro" revision="sumo" />
 
   <project remote="github" name="meta-rk3399-xen" path="layers/meta-rk3399-xen" revision="devel" />
 
