@@ -61,7 +61,7 @@ Partition layout:
 | 100M (vfat) | 300M (ext2) | 300M (ext2) | (Unmapped)  |
 |             |             |             |             |
 +-------------+-------------+-------------+-------------+
-|    boot     | dom0-roots  |   reserved  |             |
+| rk3399-boot | dom0-roots  |   reserved  |             |
 +-------------+-------------+-------------+-------------+
 ```
 > copy xen image:
