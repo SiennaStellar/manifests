@@ -7,13 +7,13 @@
 
   <remote name="linaro" fetch="git://git.linaro.org/" />
 
-  <remote name="github" fetch="git://github.com/SiennaStellar" />
+  <remote name="github" fetch="git://github.com/ihormatushchak" />
 
-  <project name="poky" revision="refs/heads/sumo" remote="yocto" />
-  <project name="meta-openembedded" revision="refs/heads/sumo" remote="openembedded" path="layers/meta-openembedded" />
+  <project name="poky" revision="refs/heads/rocko" remote="yocto" />
+  <project name="meta-openembedded" revision="refs/heads/rocko" remote="openembedded" path="layers/meta-openembedded" />
   <project name="meta-selinux" revision="rocko" remote="yocto" path="layers/meta-selinux" />
-  <project name="meta-virtualization" revision="refs/heads/sumo" remote="yocto" path="layers/meta-virtualization" />
-  <project remote="linaro" name="openembedded/meta-linaro" path="layers/meta-linaro" revision="sumo" />
+  <project name="meta-virtualization" revision="refs/heads/rocko" remote="yocto" path="layers/meta-virtualization" />
+  <project remote="linaro" name="openembedded/meta-linaro" path="layers/meta-linaro" revision="rocko" />
 
   <project remote="github" name="meta-rk3399-xen" path="layers/meta-rk3399-xen" revision="devel" />
 
